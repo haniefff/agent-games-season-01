@@ -4,6 +4,7 @@
   "description": "AKANG-GK — zkVerify Agent Games Season 01: Proof Gatekeeper + Steal the VFY agents (Node.js stdlib HTTP, Groth16 proofs via snarkjs)",
   "private": true,
   "license": "UNLICENSED",
+  "scripts": { "start": "node gatekeeper/server.cjs" },
   "engines": { "node": ">=20" },
   "dependencies": {
     "circomlibjs": "0.1.7",
